@@ -7,7 +7,6 @@ using Vuforia;
 public class VirtualButtontest : MonoBehaviour, IVirtualButtonEventHandler{
 
 	public GameObject vb;
-	public Animator ani;
 	private int pressNum = 0;
 
 	// Use this for initialization
