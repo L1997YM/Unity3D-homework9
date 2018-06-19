@@ -37,13 +37,11 @@ public class VirtualButtontest : MonoBehaviour, IVirtualButtonEventHandler{
 	{
 		pressNum++;
 		pressNum %= 3;
-		ani.SetTrigger ("Take Off");
 		Debug.Log ("按钮按下！");
 	}
 
 	public void OnButtonReleased(VirtualButtonAbstractBehaviour vb)
 	{
-		ani.SetTrigger ("Land");
 		Debug.Log ("按钮释放");
 	}
 
